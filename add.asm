@@ -7,7 +7,7 @@ TITLE Add and Subtract		         (AddSub.asm)
 
 .stack 	100h			
 .data
-mov ax,@ddata
+mov ax,@data
 mov ds, ax
 val1     word  0001h
 val2     word  0002h
